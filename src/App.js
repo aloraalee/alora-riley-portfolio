@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import AboutMe from './components/AboutMe';
+import ProjectsContainer from './components/ProjectsContainer';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import './App.css';
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1)); 
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location.hash]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Navbar/>
+        <header className="App-header">
+          <h1>
+          <img className="portfolio-photo" src="/Portfolio-photo.png" alt="Photo of Alora Riley"/>
+            Alora Riley
+          </h1>
+        </header>
+        <AboutMe/>
+        <ProjectsContainer/>
+        <Skills/>
+        <Education/>
+        <Contact/>
+      </div>
   );
 }
 
