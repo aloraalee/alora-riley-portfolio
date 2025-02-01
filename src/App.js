@@ -26,6 +26,7 @@ function App() {
         <Navbar/>
         <header className="App-header">
           <h1>
+          <img className="portfolio-photo" src="/Portfolio-photo.png" alt="Photo of Alora Riley"/>
             Alora Riley
           </h1>
         </header>
