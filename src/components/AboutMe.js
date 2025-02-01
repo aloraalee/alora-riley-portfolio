@@ -2,7 +2,7 @@
 const AboutMe = () => {
 
   return (
-    <section className="aboutMeSection">
+    <section id="about-me">
       <h2>
         About Me Here
       </h2>

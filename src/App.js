@@ -4,15 +4,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <header className="App-header">
-        <h1>
-          Alora Riley
-        </h1>
-      </header>
-      <AboutMe/>
-    </div>
+      <div className="App">
+        <Navbar/>
+        <header className="App-header">
+          <h1>
+            Alora Riley
+          </h1>
+        </header>
+        <AboutMe/>
+      </div>
   );
 }
 
