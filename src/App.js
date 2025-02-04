@@ -27,7 +27,7 @@ function App() {
         <header className="App-header">
           <img className="portfolio-photo" src="/Portfolio-photo.png" alt="Photo of Alora Riley"/>
             <h1>
-              Alora Riley
+              Hello, I'm <span style={{color: "#FF99C7"}}>Alora</span>.
             </h1>
             <h2>
               Software Engineer
