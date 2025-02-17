@@ -9,13 +9,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: brown
+  color: brown;
+  margin-bottom: 0px;
 }
 
 .portfolio-photo {
   border-radius: 500px;
-  width: 25%;
-  height: 25%
+  width: 30%;
+  height: auto
 }
 
 .App-header h2 {
