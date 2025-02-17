@@ -25,10 +25,13 @@ function App() {
       <div className="App">
         <Navbar/>
         <header className="App-header">
-          <h1>
           <img className="portfolio-photo" src="/Portfolio-photo.png" alt="Photo of Alora Riley"/>
-            Alora Riley
-          </h1>
+            <h1>
+              Alora Riley
+            </h1>
+            <h2>
+              Software Engineer
+            </h2>
         </header>
         <AboutMe/>
         <ProjectsContainer/>
