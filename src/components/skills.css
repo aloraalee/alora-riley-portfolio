@@ -10,7 +10,7 @@ h2 {
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #d63384; 
+  color: brown; 
 }
 
 .icons {
@@ -50,21 +50,15 @@ h3 {
   transition: color 0.3s ease;
 }
 
-.icons h4:hover {
-  color: #d63384; 
-}
-
 .icons svg {
   width: 40px;
   height: 40px;
   margin: 10px auto;
   transition: transform 0.3s ease;
-  fill: #d63384; 
 }
 
 .icons svg:hover {
   transform: scale(1.1);
-  fill: #a02066; 
 }
 
 @media (max-width: 768px) {
