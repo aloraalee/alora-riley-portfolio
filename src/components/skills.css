@@ -1,9 +1,8 @@
-/* General Section Styling */
 #skills {
   text-align: center;
   padding: 50px 20px;
-  background-color: #ffe6f0; /* Soft pink background */
-  color: #4a4a4a; /* Dark gray text for contrast */
+  background-color: #ffe6f0; 
+  color: #4a4a4a; 
 }
 
 h2 {
@@ -11,10 +10,9 @@ h2 {
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #d63384; /* Deep pink title */
+  color: #d63384; 
 }
 
-/* Grid Layout for Icons */
 .icons {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -23,9 +21,8 @@ h2 {
   margin: auto;
 }
 
-/* Individual Sections */
 section {
-  background: #fff0f5; /* Very light pink background */
+  background: #fff0f5; 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,14 +34,12 @@ section:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Section Titles */
 h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #d63384; /* Deep pink */
+  color: #d63384; 
 }
 
-/* Icon and Text Styling */
 .icons h4 {
   display: flex;
   align-items: center;
@@ -56,24 +51,22 @@ h3 {
 }
 
 .icons h4:hover {
-  color: #d63384; /* Deep pink hover */
+  color: #d63384; 
 }
 
-/* Icons */
 .icons svg {
   width: 40px;
   height: 40px;
   margin: 10px auto;
   transition: transform 0.3s ease;
-  fill: #d63384; /* Pink icon color */
+  fill: #d63384; 
 }
 
 .icons svg:hover {
   transform: scale(1.1);
-  fill: #a02066; /* Darker pink on hover */
+  fill: #a02066; 
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .icons {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
