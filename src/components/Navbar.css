@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe6f0; 
+  padding: 20px;
+  background-image: url('/public/fall-sunflowers.jpg'); 
+  background-position: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #5c6046; 
+  font-size: 1.1rem;
+  margin: 0 20px; 
+  padding: 10px 20px;
+  border: 2px solid brown;
+  border-radius: 8px; 
+  background-color: rgba(255, 255, 255, 0.85); 
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.nav-link:hover {
+  color: #c17d56; 
+  transform: scale(1.1); 
+}
+
+
+@media (max-width: 800px) {
+  .navbar {
+    background-image: url('/public/flower-banner.png'); 
+    flex-direction: column;
+    padding: 10px;
+  }
+  .nav-link {
+    margin: 10px 0;
+  }
+}

@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  
+  color: brown
 }
 
 .portfolio-photo {
@@ -19,7 +19,7 @@
 }
 
 .App-header h2 {
-  color: black;
+  color: brown;
   text-transform: none
 }
 
