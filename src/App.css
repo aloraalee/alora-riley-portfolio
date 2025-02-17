@@ -18,3 +18,8 @@
   width: 25%;
   height: 25%
 }
+
+.App-header h2 {
+  color: white;
+  text-transform: none
+}
