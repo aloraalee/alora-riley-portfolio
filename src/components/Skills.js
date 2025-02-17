@@ -22,12 +22,6 @@ const Skills = () => {
           <h4>
             Rails
           </h4>
-          <h4>
-            Active Record
-          </h4>
-          <h4>
-            SQL
-          </h4>
         </section>
         <section className="frontend">
           <h3>
