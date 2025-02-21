@@ -7,10 +7,11 @@
 h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 2px;
   color: brown; 
   margin: 35px; 
+  font-family: Playfair Display;
 }
 
 .icons {
@@ -38,6 +39,7 @@ h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: brown; 
+  font-family: Merriweather;
 }
 
 .icons h4 {
@@ -46,7 +48,7 @@ h3 {
   justify-content: center;
   font-size: 1.2rem;
   margin-top: 8px;
-  color: #6d6d6d;
+  color: #5c6046;
   transition: color 0.3s ease;
 }
 
