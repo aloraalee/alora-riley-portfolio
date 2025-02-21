@@ -1,0 +1,12 @@
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white
+}
+
+img {
+  width: 50%;
+}
