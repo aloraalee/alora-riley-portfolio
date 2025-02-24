@@ -6,6 +6,7 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import './App.css';
 
@@ -32,6 +33,26 @@ function App() {
             <h2>
               Software Engineer
             </h2>
+            <div class="social-links">
+              <a
+                href="https://github.com/aloraalee"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="Visit my GitHub profile"
+              >
+                <FaGithub size={50} aria-hidden="true" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/alorariley/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="Visit my LinkedIn profile"
+              >
+                <FaLinkedin size={50} aria-hidden="true" />
+              </a>
+            </div>
         </header>
         <AboutMe/>
         <ProjectsContainer/>
