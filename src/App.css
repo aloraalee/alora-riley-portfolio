@@ -21,6 +21,27 @@
 
 .App-header h2 {
   color: brown;
-  text-transform: none
+  text-transform: none;
+  margin-top: 0px
 }
 
+.App-header h1 {
+  margin-bottom: 0px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1.25rem;
+  animation: fadeIn 0.4s ease-in;
+}
+
+.social-link {
+  color: #edd5bb;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-link:hover {
+  color: #5c6046;
+}
