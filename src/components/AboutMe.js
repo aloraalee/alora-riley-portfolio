@@ -3,6 +3,7 @@ import './AboutMe.css';
 const AboutMe = () => {
 
   return (
+    <div>
     <section id="about-me">
       <h2>
         About Me
@@ -17,6 +18,14 @@ const AboutMe = () => {
         Outside of work, I love to travel, play ultimate frisbee, and spend time outdoors, always looking for ways to connect with new places and people. As I continue my journey in tech, I’m excited to apply my problem-solving skills and lifelong learning mindset to create impactful tools and systems.
       </p>
     </section>
+      <div className="hobby-imgs-container">
+        <img src="/yoga.png" alt="Yoga practice" className="hobby-img" />
+        <img src="/hiking.png" alt="hiking" className="hobby-img" />
+        <img src="/read.png" alt="read" className="hobby-img" />
+        <img src="/frisbee.png" alt="frisbee" className="hobby-img" />
+      </div>
+    </div>
+
   )
 
 }
