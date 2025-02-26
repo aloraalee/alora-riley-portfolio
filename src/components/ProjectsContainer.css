@@ -1,10 +1,9 @@
 .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   gap: 20px;
   max-width: 1500px;
   margin: auto;
-  /* background-color: white */
 }
 
 img {
@@ -21,6 +20,7 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  min-height: 92%
 }
 
 #projects h3, p {
@@ -32,5 +32,29 @@ img {
 #projects ul {
   text-align: justify;
   width: 85%;
+}
+
+.project-buttons {
+  margin-top: auto; 
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#projects .project-btn a {
+  color: black;
+  text-decoration: none
+}
+
+#projects .project-btn {
+  background-color: #edd5bb;
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+#projects .project-btn:hover {
+  background-color: #fff0f5;
+  color: white
 }
 
