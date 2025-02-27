@@ -2,26 +2,27 @@
   padding: 2rem 2.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
+  max-width: 850px;
   margin: 2rem auto;
 }
 
 #about-me h2 {
   font-size: 2rem;
   color: brown; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: playfair display;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
 #about-me p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
   color: #555;
   text-align: justify;
   text-justify: inter-word;
   letter-spacing: 0.5px;
+  font-family: Playfair display;
 }
 
 #about-me p {
