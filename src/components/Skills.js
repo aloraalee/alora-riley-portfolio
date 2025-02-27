@@ -1,5 +1,5 @@
 import './skills.css';
-import {Ruby, Rails, RSPEC, Postman, ReactJS, JavaScript, HTML, CSS, Cypress, Git, GitHub, JSON, Slack, Heroku, Netlify, Jira, Figma, Miro } from '../components/icons';
+import {Ruby, Rails, RSPEC, Postman, ReactJS, JavaScript, HTML, CSS, Cypress, Git, GitHub, TypeScript, Heroku, Netlify, Figma, Miro, TailwindCSS, Slack } from '../components/icons';
 
 
 const Skills = () => {
@@ -43,8 +43,13 @@ const Skills = () => {
           <h4>
             CSS
           </h4>
+          {<TypeScript/>}
           <h4>
             TypeScript
+          </h4>
+          {<TailwindCSS/>}
+          <h4>
+            TailwindCSS
           </h4>
         </section>
         <section className="testing-development">
@@ -72,9 +77,6 @@ const Skills = () => {
           <h4>
             GitHub
           </h4>
-          <h4>
-            Jira
-          </h4>
         </section>
         <section className="tools">
           <h3>
@@ -83,9 +85,6 @@ const Skills = () => {
           {<Postman />}
           <h4>
             Postman
-          </h4>
-          <h4>
-            Postico
           </h4>
           {<Netlify />}
           <h4>
@@ -102,6 +101,10 @@ const Skills = () => {
           {<Figma />}
           <h4>
             Figma
+          </h4>
+          {<Slack />}
+          <h4>
+            Slack
           </h4>
         </section>
       </div>

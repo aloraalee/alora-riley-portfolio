@@ -26,6 +26,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <p className="email">
+        Or send your own email to alora.riley@gmail.com
+      </p>
     </section>
   );
 };
