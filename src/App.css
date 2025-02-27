@@ -11,7 +11,6 @@
   font-size: calc(10px + 2vmin);
   color: brown;
   margin-bottom: 0px;
-  font-family: Lora;
 }
 
 .portfolio-photo {
@@ -23,7 +22,8 @@
 .App-header h2 {
   color: brown;
   text-transform: none;
-  margin-top: 0px
+  margin-top: 10px;
+  margin-bottom: 20px
 }
 
 .App-header h1 {

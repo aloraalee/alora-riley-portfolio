@@ -34,6 +34,24 @@ function App() {
               Software Engineer
             </h2>
             <div class="social-links">
+            <a
+                href="https://www.linkedin.com/in/alorariley/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="Visit my LinkedIn profile"
+              >
+                <FaLinkedin size={50} aria-hidden="true" />
+              </a>
+              <a href="https://docs.google.com/document/d/1sIKxUEPXbZdzTDaKr4WPeC9p7f4jR3-XRhiZaAcgM2A/edit?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="View my resume on Google Docs">
+                  <button className="resume-button">
+                    Show Resume
+                  </button>
+              </a>
               <a
                 href="https://github.com/aloraalee"
                 target="_blank"
@@ -43,16 +61,18 @@ function App() {
               >
                 <FaGithub size={50} aria-hidden="true" />
               </a>
-              <a
-                href="https://www.linkedin.com/in/alorariley/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="social-link"
-                aria-label="Visit my LinkedIn profile"
-              >
-                <FaLinkedin size={50} aria-hidden="true" />
-              </a>
             </div>
+            {/* <div className="resume-section">
+                <a href="https://docs.google.com/document/d/1sIKxUEPXbZdzTDaKr4WPeC9p7f4jR3-XRhiZaAcgM2A/edit?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="View my resume on Google Docs">
+                  <button className="resume-button">
+                    Show Resume
+                  </button>
+                </a>
+              </div> */}
         </header>
         <AboutMe/>
         <ProjectsContainer/>
