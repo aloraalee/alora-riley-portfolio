@@ -55,11 +55,6 @@ const ProjectsContainer = () => {
             <br></br>
             My primary focus was on backend development, building a robust Coupon model with full CRUD functionality and business rules like a 5-coupon limit per merchant. I also updated the Invoice model and set up seed data. On the frontend, I enhanced the UI by fetching and displaying coupon data, implementing dynamic updates, and creating a toggle feature between Merchants and Coupons. This work strengthened my skills in API integration and state management.
           </p>
-          {/* <ul>
-            <li><strong>Backend Development (Primary Focus):</strong> Built Coupon model with full CRU, unique codes, and business rules (like a 5-coupon limit per merchant). Updated Invoice model for optional coupon association, adjusted tests, and set up seed data.</li>
-            <br></br>
-            <li><strong>Frontend Enhancements (Secondary Focus):</strong> Fetched and displayed coupon data, built dynamic UI updates, and toggled views between Merchants and Coupons.</li>
-          </ul> */}
           <div className="project-buttons">
             <button className="project-btn">
               <a href="https://github.com/aloraalee/little-shop-fe-final-starter.git"> FE Repo </a>

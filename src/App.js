@@ -26,7 +26,7 @@ function App() {
       <div className="App">
         <Navbar/>
         <header className="App-header">
-          <img className="portfolio-photo" src="/Portfolio-photo.png" alt="Photo of Alora Riley"/>
+          <img className="portfolio-photo" src="./Portfolio-photo.png" alt="Photo of Alora Riley"/>
             <h1>
               Hello, I'm <span style={{color: "#FF99C7"}}>Alora</span>.
             </h1>
@@ -62,17 +62,6 @@ function App() {
                 <FaGithub size={50} aria-hidden="true" />
               </a>
             </div>
-            {/* <div className="resume-section">
-                <a href="https://docs.google.com/document/d/1sIKxUEPXbZdzTDaKr4WPeC9p7f4jR3-XRhiZaAcgM2A/edit?usp=sharing" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  class="social-link"
-                  aria-label="View my resume on Google Docs">
-                  <button className="resume-button">
-                    Show Resume
-                  </button>
-                </a>
-              </div> */}
         </header>
         <AboutMe/>
         <ProjectsContainer/>

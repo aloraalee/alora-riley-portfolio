@@ -19,10 +19,10 @@ const AboutMe = () => {
       </p>
     </section>
       <div className="hobby-imgs-container">
-        <img src="/yoga.png" alt="Yoga practice" className="hobby-img" />
-        <img src="/hiking.png" alt="hiking" className="hobby-img" />
-        <img src="/read.png" alt="read" className="hobby-img" />
-        <img src="/frisbee.png" alt="frisbee" className="hobby-img" />
+        <img src="./yoga.png" alt="Yoga practice" className="hobby-img" />
+        <img src="./hiking.png" alt="hiking" className="hobby-img" />
+        <img src="./read.png" alt="read" className="hobby-img" />
+        <img src="./frisbee.png" alt="frisbee" className="hobby-img" />
       </div>
     </div>
 
