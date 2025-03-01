@@ -23,3 +23,8 @@ npm install
 ```
 npm start
 ```
+## Contact me
+
+Email: alora.riley@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/alorariley/
