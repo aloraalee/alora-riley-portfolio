@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact">
       <div className="contact-content">
         <div className="contact-photo">
-          <img src="/Portfolio-photo.png" alt="Photo of Alora Riley"/>
+          <img src="./Portfolio-photo.png" alt="Photo of Alora Riley"/>
         </div>
         <div className="contact-form">
           <h2>Contact Me</h2>
