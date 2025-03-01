@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/alora-riley-portfolio/static/css/main.e978d14c.css",
+    "main.js": "/alora-riley-portfolio/static/js/main.57aafdb8.js",
+    "static/js/488.17320bd5.chunk.js": "/alora-riley-portfolio/static/js/488.17320bd5.chunk.js",
+    "static/media/JourneyLikaAGenius.gif": "/alora-riley-portfolio/static/media/JourneyLikaAGenius.8670cd1f747a6665ec8c.gif",
+    "static/media/MusicFestival.gif": "/alora-riley-portfolio/static/media/MusicFestival.4d9955099a8e67ff62b4.gif",
+    "static/media/HangInThere.gif": "/alora-riley-portfolio/static/media/HangInThere.dc05079290ca01459995.gif",
+    "static/media/Tracker.gif": "/alora-riley-portfolio/static/media/Tracker.e063e7ef8fd0a10b64ba.gif",
+    "static/media/flower-banner.png": "/alora-riley-portfolio/static/media/flower-banner.223c9777bfcca2d08c89.png",
+    "static/media/fall-sunflowers.jpg": "/alora-riley-portfolio/static/media/fall-sunflowers.c37baf562135bc9482f6.jpg",
+    "index.html": "/alora-riley-portfolio/index.html",
+    "main.e978d14c.css.map": "/alora-riley-portfolio/static/css/main.e978d14c.css.map",
+    "main.57aafdb8.js.map": "/alora-riley-portfolio/static/js/main.57aafdb8.js.map",
+    "488.17320bd5.chunk.js.map": "/alora-riley-portfolio/static/js/488.17320bd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e978d14c.css",
+    "static/js/main.57aafdb8.js"
+  ]
+}
